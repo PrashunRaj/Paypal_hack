@@ -2,6 +2,8 @@
 
 **Send money for a purpose. Release it only on proof.**
 
+**Live demo:** https://earmarkpay.onrender.com (PayPal sandbox + Gemini). It's on Render's free plan, so the first load after a quiet period can take about a minute.
+
 People send money home every day for a specific need: a parent's medicine, a sibling's school fees, a family's groceries. Today they have no way to know it was used for that, and donors to individual families have the same worry.
 
 EarmarkPay holds the money with a **PayPal authorization**. The recipient photographs each bill. **AI reads the bill** and checks it against the sender's rules, and PayPal **captures and pays out only the verified amount**. When the sender closes the earmark, the remaining authorization is voided, so unused money is never taken.
