@@ -1,0 +1,5 @@
+body{margin:0;background:#e9e4da;display:flex;justify-content:center;padding:30px 0;font-family:"Courier New",monospace;color:#222}
+.r{width:440px;background:#fffdf7;padding:26px 28px;box-shadow:0 2px 10px rgba(0,0,0,.18);transform:rotate(-.6deg)}
+h1{font-size:22px;text-align:center;margin:0 0 4px;letter-spacing:1px}.c{text-align:center;font-size:13px;line-height:1.45}
+hr{border:0;border-top:1px dashed #555;margin:12px 0}table{width:100%;font-size:14px;border-collapse:collapse}td{padding:3px 0}td:last-child{text-align:right}
+.t td{font-weight:bold;font-size:17px;padding-top:6px}.s{font-size:11px;text-align:center;color:#777;margin-top:14px}

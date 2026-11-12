@@ -1,0 +1,35 @@
+{
+  "name": "earmarkpay",
+  "version": "1.0.0",
+  "description": "Purpose-locked payments: money is held with PayPal and released only when AI verifies the bill matches the purpose.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "concurrently -k -n api,web -c blue,magenta \"node --watch server/index.js\" \"vite\"",
+    "build": "vite build",
+    "check": "node scripts/smoke-test.js",
+    "verify": "node scripts/verify-keys.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.9.2",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-react": "^32.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.5",
+    "tailwindcss": "^4.3.5",
+    "vite": "^6.4.6"
+  }
+}
